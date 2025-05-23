@@ -1,5 +1,5 @@
 import React from 'react'
-import { useCountryStore } from '../store/useCountryStore'
+import { useCountryStore } from '../../store/useCountryStore'
 import './Filters.css'
 import debounce from 'just-debounce-it'
 

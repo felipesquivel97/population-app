@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import { HomeView } from './pages/HomeView'
-import { ContinentView } from './pages/ContinentView'
+import { HomePage } from './pages/HomePage'
+import { ContinentPage } from './pages/ContinentPage'
 
 function App() {
   return (
@@ -9,8 +9,8 @@ function App() {
       <h1 className='title'>POPULATION APP</h1>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<HomeView></HomeView>} />
-          <Route path='/:continent' element={<ContinentView></ContinentView>} />
+          <Route path='/' element={<HomePage></HomePage>} />
+          <Route path='/:continent' element={<ContinentPage></ContinentPage>} />
         </Routes>
       </BrowserRouter>
     </main>

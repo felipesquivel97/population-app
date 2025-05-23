@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
-import BarChart from '../components/BarChart'
-import { Filters } from '../components/Filters'
-import { LinksSection } from '../components/LinksSection'
+import BarChart from '../components/BarChart/BarChart'
+import { Filters } from '../components/Filters/Filters'
+import { LinksSection } from '../components/LinksSection/LinksSection'
 import { useCountries } from '../hooks/useCountries'
 import { useCountryStore } from '../store/useCountryStore'
 
-export const HomeView = () => {
+export const HomePage = () => {
   const { groupedPopulationByRegion } = useCountries()
 
   const groupedRegions = useCountryStore((state) => state.groupedRegions)

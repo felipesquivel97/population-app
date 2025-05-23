@@ -1,4 +1,4 @@
-import type { Country } from '../types'
+import type { Country } from '../../types'
 import './ContinentInfo.css'
 
 interface Props {

@@ -1,17 +1,17 @@
 # 🌍 Population App
 
-Aplicación web que muestra datos de población por continente y país, utilizando la API pública de [REST Countries](https://restcountries.com/)
+Web application that displays population data by continent and country, using the public API from [REST Countries](https://restcountries.com/)
 
 ---
 
-## 🚀 Funcionalidades principales
+## 🚀 Main Features
 
-- Visualización de datos poblacionales en un gráfico de barras
-- Navegación por continentes
-- Filtro de países o regiones por población mínima
-- Gráficos dinámicos con Chart.js
+- Visualization of population data in a bar chart
+- Navigation through continents
+- Filter countries or regions by minimum population
+- Dynamic charts with Chart.js
 
-## 🛠️ Tecnologías usadas
+## 🛠️ Technologies Used
 
 - React
 - Zustand
@@ -19,18 +19,18 @@ Aplicación web que muestra datos de población por continente y país, utilizan
 - React Router
 - TypeScript
 
-## 📦 Instalación
+## 📦 Installation
 
-1. Clona el repositorio:
+1. Clone the repository:
    ```bash
    git clone https://github.com/felipesquivel97/population-app.git
    cd population-app
    ```
-2. Instala dependencias:
+2. Install dependencies:
    ```bash
    npm install
    ```
-3. Inicia la app:
+3. Start the app:
    ```bash
    npm run dev
    ```

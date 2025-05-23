@@ -6,7 +6,7 @@ import {
   Tooltip,
 } from 'chart.js'
 import { Bar } from 'react-chartjs-2'
-import type { CountryName } from '../types'
+import type { CountryName } from '../../types'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip)
 

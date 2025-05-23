@@ -1,13 +1,13 @@
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import BarChart from '../components/BarChart'
+import BarChart from '../components/BarChart/BarChart'
 import { useCountries } from '../hooks/useCountries'
-import { LinksSection } from '../components/LinksSection'
-import { ContinentInfo } from '../components/ContinentInfo'
-import { Filters } from '../components/Filters'
+import { LinksSection } from '../components/LinksSection/LinksSection'
+import { ContinentInfo } from '../components/ContentInfo/ContinentInfo'
+import { Filters } from '../components/Filters/Filters'
 import { useCountryStore } from '../store/useCountryStore'
 
-export const ContinentView = () => {
+export const ContinentPage = () => {
   const links = [{ name: 'Volver atrás', to: '' }]
 
   const { continent } = useParams()
